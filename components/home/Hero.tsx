@@ -13,7 +13,7 @@ export default function Hero() {
         alt="Sri Panduranga Swamy Temple"
         fill
         priority
-        className="object-cover object-center scale-105 animate-[pulse_20s_ease-in-out_infinite_alternate]" // Subtle cinematic scale
+        className="object-cover object-center scale-105" // Subtle cinematic scale
       />
 
       {/* Cinematic Overlay - Darker edges, clearer center */}
@@ -26,8 +26,8 @@ export default function Hero() {
         <div className="flex max-w-5xl flex-col items-center text-center">
 
           {/* Massive Title */}
-          <h1 className="font-cinzel text-5xl font-normal uppercase leading-tight  text-white drop-shadow-2xl md:text-7xl lg:text-[6.5rem]">
-            <span className="opacity-95 text-white/90">Sri Panduranga</span>
+          <h1 className="font-serif text-10xl font-bold uppercase leading-tight tracking-wider text-white drop-shadow-2xl md:text-5xl lg:text-[5.5rem]">
+            <br/><span className="opacity-95 text-white/90">Sri Panduranga</span>
             <br />
             Swamy Temple
           </h1>
@@ -38,6 +38,7 @@ export default function Hero() {
             <div className="h-2 w-2 rotate-45 bg-[#D4AF37] shadow-[0_0_10px_#D4AF37]" />
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#D4AF37] md:w-32" />
           </div>
+          <br/>
 
           {/* Location Details */}
           <p className="font-serif text-white text-xs md:text-sm font-semibold uppercase tracking-[0.4em] text-[#D4AF37] drop-shadow-md">
@@ -45,7 +46,7 @@ export default function Hero() {
           </p>
 
           {/* Elegant Description */}
-          <p className="mx-auto mt-8 max-w-3xl font-serif text-xl leading-[1.8] text-[#F7F2EB] drop-shadow-lg md:text-2xl lg:text-[1.75rem]">
+          <p className="mx-auto mt-8 max-w-7xl font-serif text-xl leading-[1.8] text-[#F7F2EB] drop-shadow-lg md:text-2xl lg:text-[1.25rem]">
             Along the serene coast of Machilipatnam, in the sacred village of
             Chilakalapudi, stands Sri Panduranga Swamy Temple—a timeless
             sanctuary where devotion, heritage and divine grace have flourished
@@ -54,7 +55,7 @@ export default function Hero() {
 
           {/* Call to Action */}
           <div className="mt-12">
-            <TempleButton text="Explore the Heritage →" />
+            <TempleButton text=" Explore the Heritage " />
           </div>
 
           {/* Scroll Indicator */}

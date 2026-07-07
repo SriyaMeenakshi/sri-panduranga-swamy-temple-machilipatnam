@@ -9,11 +9,11 @@ export default function TempleButton({ text }: Props) {
       group
       relative
       overflow-hidden
-      rounded-full
-      border border-[#D4AF37]/60
+      rounded
+      border border-[#D4AF37]/80
       bg-gradient-to-br from-[#5a1414] to-[#7B1E1E]
       px-10
-      py-3.5
+      py-4
       font-serif
       text-lg
       tracking-wider
