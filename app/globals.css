@@ -86,3 +86,12 @@ img{
   padding:7rem 0;
 
 }
+/* Hide Scrollbar */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}

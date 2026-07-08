@@ -58,13 +58,7 @@ export default function Hero() {
             <TempleButton text=" Explore the Heritage " />
           </div>
 
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-10 flex flex-col items-center">
-            <span className="font-serif text-[10px] uppercase tracking-[0.5em] text-[#D4AF37]/80">
-              Scroll
-            </span>
-            <div className="mt-4 h-16 w-[1px] bg-gradient-to-b from-[#D4AF37]/80 to-transparent" />
-          </div>
+         
 
         </div>
       </Container>

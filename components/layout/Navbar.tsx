@@ -24,10 +24,10 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col justify-center">
               <h2 className="font-serif text-xl md:text-2xl font-medium tracking-widest text-[#D4AF37] uppercase drop-shadow-sm">
-                Sri Panduranga
+                Sri Panduranga Swamy Temple
               </h2>
               <p className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-gray-200 mt-0.5">
-                Swamy Temple
+                Keer Pandharpur
               </p>
             </div>
           </Link>
