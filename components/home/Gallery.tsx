@@ -74,7 +74,7 @@ export default function Gallery() {
   );
 
   return (
-    <section className="bg-[#120b08] py-24 md:py-32 w-full">
+    <section className="bg-gradient-to-b from-[#120b08] via-[#2a0a0a] to-[#120b08] py-24 md:py-32 w-full">
       {/* Container forcing absolute center alignment */}
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-4 md:px-8">
         

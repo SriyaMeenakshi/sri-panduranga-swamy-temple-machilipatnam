@@ -27,7 +27,7 @@ export default function Navbar() {
                 Sri Panduranga Swamy Temple
               </h2>
               <p className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-gray-200 mt-0.5">
-                Keer Pandharpur
+                Keer Pandharpuram
               </p>
             </div>
           </Link>

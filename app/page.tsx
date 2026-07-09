@@ -6,16 +6,16 @@ import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className=" w-full ">
+    <main className=" w-full bg-[#120b08] ">
 
       <Hero />
-
+      <br/>
       <Gallery />
-
-      <Chant />
-
+      <br/>
       <HistoryPreview />
-
+      <br/>
+      <Chant />
+      <br/>
       <Footer />
 
     </main>
