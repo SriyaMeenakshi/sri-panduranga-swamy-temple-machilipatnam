@@ -4,9 +4,9 @@ import Chant from "@/components/home/Chant";
 import HistoryPreview from "@/components/home/HistoryPreview";
 import Footer from "@/components/layout/Footer";
 
-export default function e() {
+export default function Home() {
   return (
-    <main>
+    <main className=" w-full ">
 
       <Hero />
 
