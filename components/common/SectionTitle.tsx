@@ -25,7 +25,7 @@ export default function SectionTitle({ title, subtitle }: Props) {
       </div>
 
       {/* Subtitle */}
-      <p className="mx-auto w-full max-w-2xl text-center font-body text-lg leading-[1.8] text-[#F7F2EB]/80 md:text-xl">
+      <p className="mx-auto w-full max-w-1xl text-center font-body text-lg leading-[1.8] text-[#F7F2EB]/80 md:text-xl">
         {subtitle}
       </p>
       

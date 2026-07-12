@@ -1,35 +1,36 @@
 type Props = {
   text: string;
+  href: string;
 };
 
-export default function TempleButton({ text }: Props) {
+export default function TempleButton({ text, href }: Props) {
   return (
-    <button
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className="
-      group
-      relative
-      overflow-hidden
-      rounded
-      border border-[#D4AF37]/80
-      bg-gradient-to-br from-[#5a1414] to-[#7B1E1E]
-      px-10
-      py-4
-      font-serif
-      text-lg
-      tracking-wider
-      text-white
-      shadow-lg
-      transition-all
-      duration-500
-      hover:-translate-y-1
-      hover:border-[#D4AF37]
-      hover:shadow-[0_0_25px_rgba(212,175,55,0.35)]
+        group relative inline-flex items-center justify-center 
+        bg-[#2E1B0E] px-10 py-4 
+        border border-[#D4AF37]/30
+        transition-all duration-700 
+        hover:border-[#D4AF37]/80 hover:shadow-[0_0_30px_rgba(212,175,55,0.15)]
+        hover:-translate-y-1
       "
     >
-      {/* Optional subtle shine effect on hover */}
-      <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
+      {/* Subtle interior glow on hover */}
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#D4AF37]/10 to-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
       
-      <span className="relative z-10">{text}</span>
-    </button>
+      {/* Architectural Corner Accents (Like carved temple borders) */}
+      <div className="absolute top-0 left-0 h-2 w-2 border-t border-l border-[#D4AF37]/50 transition-all duration-700 group-hover:h-4 group-hover:w-4 group-hover:border-[#D4AF37]" />
+      <div className="absolute top-0 right-0 h-2 w-2 border-t border-r border-[#D4AF37]/50 transition-all duration-700 group-hover:h-4 group-hover:w-4 group-hover:border-[#D4AF37]" />
+      <div className="absolute bottom-0 left-0 h-2 w-2 border-b border-l border-[#D4AF37]/50 transition-all duration-700 group-hover:h-4 group-hover:w-4 group-hover:border-[#D4AF37]" />
+      <div className="absolute bottom-0 right-0 h-2 w-2 border-b border-r border-[#D4AF37]/50 transition-all duration-700 group-hover:h-4 group-hover:w-4 group-hover:border-[#D4AF37]" />
+
+      {/* Majestic Typography */}
+      <span className="relative z-10 font-heading text-sm font-medium uppercase tracking-[0.25em] text-[#D4AF37] transition-colors duration-700 group-hover:text-[#F7F2EB]">
+        {text}
+      </span>
+    </a>
   );
 }
