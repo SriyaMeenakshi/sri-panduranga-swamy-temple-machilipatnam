@@ -4,22 +4,23 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="w-full border-t border-[#D4AF37]/20 bg-gradient-to-b from-[#120b08] via-[#2a0a0a] to-[#120b08] pb-8 pt-12 text-[#F7F2EB]">
-      <div className="mx-auto w-full max-w-6xl px-6 md:px-12">
+      <div className="mx-auto w-full max-w-7xl px-6 md:px-12">
         
-        {/* Top Section: Branding, Dedication & Navigation */}
-        <div className="flex flex-col items-center justify-between gap-12 md:flex-row md:items-start">
+        {/* Top Section: 3-Column Layout (Left: Text, Middle: Image, Right: Nav) */}
+        <div className="flex flex-col items-center justify-between gap-8 md:flex-row md:items-start">
           
-          {/* Left Column: Branding & Dedication */}
-          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+          {/* Left Column (1/3): Branding & Dedication */}
+          <div className="flex w-full flex-col items-center text-center md:w-1/3 md:items-start md:text-left">
             <h2 className="font-heading text-xl font-medium uppercase tracking-widest text-[#D4AF37] md:text-2xl">
               Sri Panduranga Swamy Temple
             </h2>
-            <p className="mt-2 font-body text-[10px] uppercase tracking-[0.2em] text-gray-400">
+            <p className="mt-1 font-body text-[10px] uppercase tracking-[0.2em] text-gray-400">
               Chilakalapudi • Machilipatnam • AP
             </p>
             <br/>
-            {/* Compact Dedication */}
-            <div className="mt-8 flex flex-col space-y-4">
+            
+            {/* Dedication with your requested <br/> spacing */}
+            <div className="mt-5">
               <p className="font-heading text-lg font-normal text-[#D4AF37] drop-shadow-sm">
                 जय जय राम कृष्ण हरि
               </p>
@@ -31,30 +32,30 @@ export default function Footer() {
               <p className="font-body text-xs italic text-[#F7F2EB]/60">
                 A Digital Heritage Project by Sriya Meenakshi Chalamalasetty.
               </p>
+              <br/>
+            </div>
+          </div>
+
+          {/* Middle Column (1/3): Lotus Feet Image */}
+          <div className="flex w-full flex-col items-center justify-center pt-4 md:w-1/3 md:pt-0">
+            <div className="relative h-32 w-32 opacity-70 transition-opacity duration-1000 hover:opacity-100 md:h-40 md:w-40">
+              <Image 
+                src="/lotus.png" 
+                alt="Lotus Feet of Lord Panduranga"
+                fill
+                className="object-contain drop-shadow-[0_0_15px_rgba(212,175,55,0.4)]"
+              />
             </div>
           </div>
           
-          {/* Right Column: Quick Links & Image */}
-          <div className="flex flex-col items-center md:items-end">
+          {/* Right Column (1/3): Quick Links */}
+          <div className="flex w-full flex-col items-center md:w-1/3 md:items-end">
             <nav className="flex gap-5 font-heading text-xs uppercase tracking-widest text-[#F7F2EB]/80">
               <Link href="/" className="transition-colors hover:text-[#D4AF37]">Home</Link>
               <Link href="/gallery" className="transition-colors hover:text-[#D4AF37]">Gallery</Link>
               <Link href="/history" className="transition-colors hover:text-[#D4AF37]">History</Link>
               <Link href="/visit" className="transition-colors hover:text-[#D4AF37]">Visit</Link>
             </nav>
-            
-            {/* Lotus Feet Image directly below the nav */}
-            <div className="relative mt-10 h-10 w-full opacity-100 transition-opacity duration-1000 hover:opacity-100 md:h-24 md:w-24">
-              <Image 
-                src="/feet.png" 
-                alt="Lotus Feet of Lord Panduranga"
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                priority
-                quality={100}
-                className="object-contain drop-shadow-[0_0_15px_rgba(212,175,55,0.4)]"
-              />
-            </div>
           </div>
 
         </div>
@@ -95,7 +96,7 @@ export default function Footer() {
               aria-label="AP Tourism" 
               title="AP Tourism"
             >
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"></path></svg>
             </a>
             
             {/* Documentary (YouTube Icon) */}
@@ -113,6 +114,7 @@ export default function Footer() {
         </div>
 
       </div>
+      <br/>
     </footer>
   );
 }

@@ -48,9 +48,8 @@ export default function HistoryPreview() {
         <br/>
         {/* Call to Action Button */}
         <div className="mt-12">
-          <Link href="/history">
-            <TempleButton text="Experience the Illustrated History →" />
-          </Link>
+            <TempleButton href="/history" text="Experience the Illustrated History →" />
+          
         </div>
 
       </div>
