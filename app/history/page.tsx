@@ -60,9 +60,9 @@ export default function HistoryPage() {
       <Navbar/>
       {/* HERO BANNER */}
       <section className="relative flex h-[60vh] min-h-[500px] w-full flex-col items-center justify-center overflow-hidden bg-[#7B1E1E]">
-<div className="absolute inset-0 bg-gradient-to-b from-[#120b08]/80 via-[#120b08]/50 to-[#120b08]/90 z-10" />        {/* Placeholder for Hero Image */}
+ <div className="absolute inset-0 bg-black/40 z-10" /> 
         <Image 
-          src="/history/hero-main.png" 
+          src="/history/hero-final.png" 
           alt="History of the Temple" 
           fill 
           className="object-cover" 
