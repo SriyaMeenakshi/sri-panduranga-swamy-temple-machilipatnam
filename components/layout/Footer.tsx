@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="relative h-32 w-32 opacity-70 transition-opacity duration-1000 hover:opacity-100 md:h-40 md:w-40">
               <Image 
                 src="/lotus.png" 
-                alt="Lotus Feet of Lord Panduranga"
+                alt="Lotus Feet of Lord Vittala"
                 fill
                 className="object-contain drop-shadow-[0_0_15px_rgba(212,175,55,0.4)]"
               />
