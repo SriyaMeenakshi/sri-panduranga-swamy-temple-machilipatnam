@@ -4,53 +4,73 @@ import Footer from "@/components/layout/Footer";
 // The Chapter Data Structure
 const chapters = [
   {
-    id: 1,
-    chapter: "Chapter 1",
-    title: "The Birth of a Devotee",
-    text: "Your beautiful story text for Chapter 1 will go here...",
-    image: "/history/chapter-1.webp",
-  },
+  id: 1,
+  chapter: "Chapter 1",
+  title: "Every Sacred Place Begins With One Devotee",
+  text: [
+    "Every sacred place has a beginning. Some begin with a king, some with a great saint, and some with a miracle. But the story of Sri Panduranga Swamy Temple began with the unwavering faith of one humble devotee.",
+    
+    "His name was Sri Bhakta Narasimham. Born in the peaceful village of Uttaravelli near Bobbili during the late nineteenth century, he lived a simple life. Yet deep within his heart burned a love for God that would one day change the history of Chilakalapudi forever.",
+    
+    "While other children spent their days playing in the village streets, young Narasimham found joy in listening to the Puranas. He would quietly sit for hours, chanting the names of the Lord and reflecting on the life of Prahlada, whose devotion became his greatest inspiration.",
+    
+    "In his early years, Narasimham worshipped Lord Shiva with complete sincerity. But the Lord had already written a greater journey for him—a journey that would lead him to Lord Panduranga and inspire the creation of a sacred temple that continues to bless thousands of devotees even today."
+  ],
+  image: "/history/chapter1.png",
+},
   {
     id: 2,
     chapter: "Chapter 2",
     title: "A Call from Lord Panduranga",
-    text: "Your beautiful story text for Chapter 2 will go here...",
-    image: "/history/chapter-2.webp",
+    text: [
+      "Your beautiful story text for Chapter 2 will go here...",
+    ],
+    image: "/history/chapter2.png",
   },
   {
     id: 3,
     chapter: "Chapter 3",
     title: "Building a Temple of Faith",
-    text: "Your beautiful story text for Chapter 3 will go here...",
-    image: "/history/chapter-3.webp",
+    text: [
+      "Your beautiful story text for Chapter 3 will go here...",
+    ],
+    image: "/history/chapter3.png ",
   },
   {
     id: 4,
     chapter: "Chapter 4",
     title: "The Divine Promise",
-    text: "Your beautiful story text for Chapter 4 will go here...",
-    image: "/history/chapter-4.webp",
+    text: [
+      "Your beautiful story text for Chapter 4 will go here...",
+    ],
+    image: "/history/chapter4.png",
   },
   {
     id: 5,
     chapter: "Chapter 5",
     title: "The Miracle of Kartika Ekadasi",
-    text: "Your beautiful story text for Chapter 5 will go here...",
-    image: "/history/chapter-5.webp",
+    text: [
+      "Your beautiful story text for Chapter 5 will go here...",
+    ],
+    image: "/history/chapter5.png",
   },
   {
     id: 6,
     chapter: "Chapter 6",
     title: "The Temple Rises",
-    text: "Your beautiful story text for Chapter 6 will go here...",
-    image: "/history/chapter-6.webp",
+    text: [
+      "Your beautiful story text for Chapter 6 will go here...",
+    ],
+    image: "/history/chapter6.png",
   },
   {
     id: 7,
     chapter: "Chapter 7",
     title: "A Legacy That Lives Forever",
-    text: "Your beautiful story text for Chapter 7 will go here...",
-    image: "/history/chapter-7.webp",
+    text: [
+      "Your beautiful story text for Chapter 7 will go here...",
+    ],
+    image: "/history/chapter7.png",
   },
 ];
 
@@ -111,9 +131,13 @@ export default function HistoryPage() {
                   {scene.title}
                 </h2>
                 <div className="my-6 h-[1px] w-16 bg-[#7B1E1E]/30" />
-                <p className="font-body text-lg leading-[1.9] text-[#4A3B32]">
-                  {scene.text}
-                </p>
+                <div className="flex flex-col space-y-5">
+  {scene.text.map((paragraph, i) => (
+    <p key={i} className="font-body text-lg leading-[1.9] text-[#4A3B32]">
+      {paragraph}
+    </p>
+  ))}
+</div>
               </div>
 
             </div>
