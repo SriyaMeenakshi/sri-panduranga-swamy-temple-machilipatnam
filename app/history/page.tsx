@@ -18,15 +18,21 @@ const chapters = [
   ],
   image: "/history/chapter1.png",
 },
-  {
-    id: 2,
-    chapter: "Chapter 2",
-    title: "A Call from Lord Panduranga",
-    text: [
-      "Your beautiful story text for Chapter 2 will go here...",
-    ],
-    image: "/history/chapter2.png",
-  },
+ {
+  id: 2,
+  chapter: "Chapter 2",
+  title: "A Journey That Changed Everything",
+  text: [
+    "As the years passed, Narasimham grew into a man known for his simplicity, kindness, and deep devotion. His days were filled with prayer, reading sacred scriptures, and serving others. Yet, somewhere within his heart, he felt that the Lord was gently calling him towards a greater purpose.",
+    
+    "During one of his pilgrimages to the holy shrine of Tirumala, Narasimham travelled through the coastal town of Machilipatnam. On his way, he arrived at a quiet village called Chilakalapudi. The peaceful surroundings, the devotional atmosphere, and the sincere people of the village touched his heart in a way he could not explain.",
+    
+    "What was meant to be a short stop soon became something far more meaningful. Narasimham decided to remain in Chilakalapudi for some time. He earned his livelihood through honest work, lived a simple life, and slowly became a beloved member of the local community.",
+    
+    "Little did he know that this peaceful village would one day become the home of Lord Panduranga Himself, and that he had been chosen to make it happen."
+  ],
+  image: "/history/chapter2.png",
+},
   {
     id: 3,
     chapter: "Chapter 3",
