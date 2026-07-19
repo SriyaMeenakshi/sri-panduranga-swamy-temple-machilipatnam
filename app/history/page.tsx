@@ -16,7 +16,7 @@ const chapters = [
     
     "In his early years, Narasimham worshipped Lord Shiva with complete sincerity. But the Lord had already written a greater journey for him—a journey that would lead him to Lord Panduranga and inspire the creation of a sacred temple that continues to bless thousands of devotees even today."
   ],
-  image: "/history/chapter1.png",
+  image: "/history/chapter-1.png",
 },
  {
   id: 2,
@@ -31,35 +31,59 @@ const chapters = [
     
     "Little did he know that this peaceful village would one day become the home of Lord Panduranga Himself, and that he had been chosen to make it happen."
   ],
-  image: "/history/chapter2.png",
+  image: "/history/chapter-2.png",
+},
+ {
+  id: 3,
+  chapter: "Chapter 3",
+  title: "A Dream Offered to the Lord",
+  text: [
+    "Days turned into months, and months into years. Chilakalapudi was no longer just a place Narasimham had visited—it had become his home. The villagers admired his humble nature, his kindness, and the peace he carried wherever he went.",
+    
+    "Every Ekadasi, he gathered devotees for bhajans, Nama Sankeerthanam, and Annadanam. Rich or poor, young or old, everyone sat together as one family. Narasimham believed that serving people with love was the greatest form of worship.",
+    
+    "As his devotion grew stronger, a single thought began to fill his heart. 'What if Lord Panduranga Himself came to this sacred village? What if every devotee could experience His divine presence without travelling hundreds of miles to Pandharpur?'",
+    
+    "With that sacred dream, Narasimham prepared a traditional invitation for Lord Panduranga, Goddess Rukmini, and Goddess Satyabhama, inviting them to accept Annadanam during the holy month of Kartika. To many, it seemed impossible. But to a heart filled with devotion, nothing was impossible.",
+    
+    "That simple invitation, written with faith instead of ink alone, would soon change the history of Chilakalapudi forever."
+  ],
+  image: "/history/chapter3.png",
+},
+ {
+  id: 4,
+  chapter: "Chapter 4",
+  title: "The Divine Promise",
+  text: [
+    "In the year 1928, Sri Bhakta Narasimham once again set out on a sacred pilgrimage to Pandharpur, the holy abode of Lord Vitthala. As was his custom, he took a holy dip in the sacred Chandrabhaga River before offering his prayers at the Lord's lotus feet.",
+    
+    "Before leaving, Narasimham carefully collected a few small pebbles from the banks of the Chandrabhaga. To others, they looked like ordinary stones. But to a heart filled with devotion, every stone from the Lord's sacred river carried His blessings.",
+    
+    "When Narasimham met his revered Guru, Mahipati Maharaj, something extraordinary happened. Among the pebbles, one suddenly shone with a brilliant divine light. It was unlike anything anyone had ever witnessed. Mahipati Maharaj recognised it as the sacred 'Sparsavedi' and lovingly placed it in Narasimham's hands.",
+    
+    "That very night, Lord Panduranga appeared in Mahipati Maharaj's dream. Accompanied by the great saints Sant Jnaneshwar and Sant Tukaram, the Lord declared, 'I shall manifest Myself in Chilakalapudi. That sacred land shall become another Pandharpur, where countless devotees will receive My blessings.'",
+    
+    "When Mahipati Maharaj shared the divine message, Narasimham's heart overflowed with gratitude. His dream was no longer his alone—it had become the Lord's own promise."
+  ],
+  image: "/history/chapter4.png",
 },
   {
-    id: 3,
-    chapter: "Chapter 3",
-    title: "Building a Temple of Faith",
-    text: [
-      "Your beautiful story text for Chapter 3 will go here...",
-    ],
-    image: "/history/chapter3.png ",
-  },
-  {
-    id: 4,
-    chapter: "Chapter 4",
-    title: "The Divine Promise",
-    text: [
-      "Your beautiful story text for Chapter 4 will go here...",
-    ],
-    image: "/history/chapter4.png",
-  },
-  {
-    id: 5,
-    chapter: "Chapter 5",
-    title: "The Miracle of Kartika Ekadasi",
-    text: [
-      "Your beautiful story text for Chapter 5 will go here...",
-    ],
-    image: "/history/chapter5.png",
-  },
+  id: 5,
+  chapter: "Chapter 5",
+  title: "The Sacred Foundation",
+  text: [
+    "Carrying the sacred blessings of Pandharpur in his heart, Sri Bhakta Narasimham returned to Chilakalapudi with renewed faith. The divine promise given through Mahipati Maharaj had filled every devotee with hope. What had once been a dream was now becoming a sacred mission.",
+    
+    "On an auspicious day chosen according to the scriptures, devotees from nearby villages gathered to witness the Bhoomi Puja and foundation ceremony. Priests chanted Vedic hymns, sacred lamps were lit, and the entire atmosphere echoed with the holy names of Lord Panduranga.",
+    
+    "The precious pebbles collected from the sacred Chandrabhaga River were reverently placed into the foundation. Along with them, one hundred and eight divine idols were ceremonially installed, symbolising that this temple would forever remain a place where every devotee could seek the grace of the Lord.",
+    
+    "Holy water brought from the Chandrabhaga River was sprinkled upon the sacred foundation while flowers, turmeric, sandalwood, and kumkum were offered with deep devotion. Men, women, children, and elders joined together in prayer, believing that Lord Panduranga Himself was silently blessing the ceremony.",
+    
+    "As the first foundation stones were laid, tears of gratitude filled Narasimham's eyes. Years of prayer had finally begun to take shape in the form of a temple. Yet, no one knew that the greatest test of their faith was still waiting just ahead."
+  ],
+  image: "/history/chapter5.png",
+},
   {
     id: 6,
     chapter: "Chapter 6",
