@@ -192,21 +192,32 @@ export default function HistoryPage() {
         </div>
       </section>
 
-      {/* FINAL SECTION (EPILOGUE) */}
+     {/* FINAL SECTION (EPILOGUE) */}
       <section className="relative flex flex-col items-center justify-center bg-[#f4ebd8] py-32 px-6 text-center border-t border-[#D4AF37]/30">
         <div className="max-w-4xl">
           
-          <p className="font-body text-2xl md:text-3xl leading-[1.8] text-[#7B1E1E] italic">
+          <p className="font-body text-2xl md:text-2xl leading-[1.8] text-[#7B1E1E] italic">
             "A temple is not built only with stone. It is built with faith. <br className="hidden md:block" />
-            Sri Bhakta Narasimham offered his life in devotion, and today that devotion continues to guide countless devotees who visit this sacred kshetram. <br className="hidden md:block" />
+            Sri Bhakta Narasimham offered his life in devotion, and today that devotion continues to guide countless devotees who visit this sacred kshetram.<br className="hidden md:block" />
             May Lord Panduranga bless every heart that walks this sacred path."
           </p>
           
-          <div className="mt-12 mx-auto flex items-center justify-center gap-4">
+          {/* Divider */}
+          <div className="my-12 mx-auto flex items-center justify-center gap-4">
             <div className="h-[1px] w-16 bg-[#D4AF37]" />
             <div className="h-2 w-2 rotate-45 bg-[#D4AF37]" />
             <div className="h-[1px] w-16 bg-[#D4AF37]" />
           </div>
+
+         {/* Author's Note / Disclaimer */}
+          <div className="mx-auto flex w-full flex-col items-center justify-center px-4">
+            <p className="text-center font-body text-sm leading-[2] text-[#7B1E1E]/80">
+              <strong className="font-semibold tracking-wide text-[#7B1E1E]">A Note of Devotion:</strong> This sacred chronicle has been thoughtfully adapted from the historical accounts <br className="hidden lg:block" />
+              shared on the official Sri Panduranga Swamy Temple Facebook page. It has been recreated here to the <br className="hidden lg:block" />
+              best of my ability as a humble offering and digital dedication to Lord Panduranga.
+            </p>
+          </div>
+
         </div>
       </section>
 <Footer/>
