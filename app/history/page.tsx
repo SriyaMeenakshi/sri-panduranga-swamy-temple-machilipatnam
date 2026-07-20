@@ -85,23 +85,39 @@ const chapters = [
   image: "/history/chapter5.png",
 },
   {
-    id: 6,
-    chapter: "Chapter 6",
-    title: "The Temple Rises",
-    text: [
-      "Your beautiful story text for Chapter 6 will go here...",
-    ],
-    image: "/history/chapter6.png",
-  },
+  id: 6,
+  chapter: "Chapter 6",
+  title: "Faith Was Put to the Test",
+  text: [
+    "As the temple neared completion, news of the divine promise spread rapidly across the surrounding villages. Devotees arrived in growing numbers, believing that Lord Panduranga would soon bless Chilakalapudi with His sacred presence. The atmosphere was filled with eager anticipation, but not everyone shared their faith.",
+
+    "Some government officials and British authorities dismissed the growing devotion as mere superstition. Concerned by the large gatherings, they ordered the temple to be sealed. Heavy locks were placed on its doors, official seals were fixed in place, and policemen were stationed around the temple so that no one could enter the sanctum.",
+
+    "Many devotees were heartbroken. Some wondered whether the Lord would truly come. Others feared that the sacred promise would never be fulfilled. Yet Sri Bhakta Narasimham remained unmoved. Folding his hands before the closed temple, he quietly prayed, trusting completely in Lord Panduranga's promise.",
+
+    "That night, as silence covered the temple, a divine assurance was given. Lord Hanuman, the eternal servant of the Lord and protector of devotees, appeared and spoke words of courage. He reminded Narasimham that unwavering devotion is never abandoned by God, and that no earthly power could stand in the way of the Lord's divine will.",
+
+    "Strengthened by these sacred words, Narasimham's doubts disappeared. As dawn approached, the devotees gathered once again before the sealed temple, their hearts filled not with fear, but with unshakable faith. The moment that would change the history of Chilakalapudi was now drawing near."
+  ],
+  image: "/history/chapter6.png",
+},
   {
-    id: 7,
-    chapter: "Chapter 7",
-    title: "A Legacy That Lives Forever",
-    text: [
-      "Your beautiful story text for Chapter 7 will go here...",
-    ],
-    image: "/history/chapter7.png",
-  },
+  id: 7,
+  chapter: "Chapter 7",
+  title: "The Lord Kept His Promise",
+  text: [
+    "The long-awaited day had finally arrived. Before the sealed temple, devotees from Chilakalapudi and the surrounding villages gathered with folded hands. Though the entrance remained locked by human authority, their faith in Lord Panduranga remained unshaken. Led by Sri Bhakta Narasimham, the devotees continuously chanted, 'Vitthala... Vitthala... Hari Vitthala...,' filling the temple courtyard with devotion.",
+
+    "As the sacred chanting grew louder, an extraordinary peace descended upon the gathering. Suddenly, a gentle golden radiance began to shine from within the sanctum. Before the eyes of everyone present, the locked doors slowly opened on their own. The divine promise given at Pandharpur had come to fulfilment.",
+
+    "Within the sanctum stood Lord Panduranga in His timeless form, upon the sacred brick, His hands resting upon His waist, radiating boundless compassion. Every devotee stood speechless. Tears flowed freely as they witnessed the Lord's divine grace with their own eyes.",
+
+    "The priests offered Mangala Harati with trembling hands. The British officials and policemen who had come to guard the temple watched the miracle unfold in silence. Even those who had doubted bowed their heads in reverence before the Lord's presence.",
+
+    "Sri Bhakta Narasimham stood with folded hands, overwhelmed with gratitude. The promise made by Lord Panduranga had been fulfilled exactly as foretold. From that sacred moment onward, Chilakalapudi became a holy abode of Lord Panduranga, drawing devotees who continue to seek His blessings with faith and devotion."
+  ],
+  image: "/history/chapter-7.png"
+},
 ];
 
 export default function HistoryPage() {
@@ -112,7 +128,7 @@ export default function HistoryPage() {
       <section className="relative flex h-[60vh] min-h-[500px] w-full flex-col items-center justify-center overflow-hidden bg-[#7B1E1E]">
  <div className="absolute inset-0 bg-black/40 z-10" /> 
         <Image 
-          src="/history/hero-final.png" 
+          src="/history/hero3.png" 
           alt="History of the Temple" 
           fill 
           className="object-cover" 
