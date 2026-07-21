@@ -127,12 +127,12 @@ export default function VisitPage() {
             <div className="group flex flex-col overflow-hidden  border border-[#D4AF37]/20 bg-[#1a0f0a] transition-all hover:border-[#D4AF37]/60">
               <div className="relative h-72 w-full overflow-hidden">
                 {/* Make sure to add this image to your public folder */}
-                <Image src="/visit/original-panduranga.jpg" alt="Original Lord Panduranga" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
+                <Image src="/visit/panduranga.png" alt="Original Lord Panduranga" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
               </div>
               <div className="p-8">
                 <h3 className="font-heading text-2xl tracking-widest text-[#D4AF37]">The Main Sanctum</h3>
                 <p className="mt-3 font-body text-sm leading-relaxed text-[#F7F2EB]/80">
-                  Have a divine darshan of the original, mesmerizing black stone idol of Lord Panduranga Swamy, standing majestically on a brick, radiating peace and boundless compassion to all who visit.
+                  Have a divine darshan of the original, mesmerizing Lord Panduranga Swamy (Swayambhu), standing majestically on a brick, radiating peace and boundless compassion to all who visit.
                 </p>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function VisitPage() {
             {/* Highlight 2: Bhakta Narasimha */}
             <div className="group flex flex-col overflow-hidden  border border-[#D4AF37]/20 bg-[#1a0f0a] transition-all hover:border-[#D4AF37]/60">
               <div className="relative h-72 w-full overflow-hidden">
-                <Image src="/visit/bhakta-narasimha.jpg" alt="Sri Bhakta Narasimha" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
+                <Image src="/visit/narasimham.png" alt="Sri Bhakta Narasimha" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
               </div>
               <div className="p-8">
                 <h3 className="font-heading text-2xl tracking-widest text-[#D4AF37]">Sri Bhakta Narasimham</h3>
@@ -150,28 +150,28 @@ export default function VisitPage() {
               </div>
             </div>
 
-            {/* Highlight 3: Sacred Tree */}
+            {/* Highlight 3: Sacred Tree & Meditating Rishi */}
             <div className="group flex flex-col overflow-hidden  border border-[#D4AF37]/20 bg-[#1a0f0a] transition-all hover:border-[#D4AF37]/60">
               <div className="relative h-72 w-full overflow-hidden">
-                <Image src="/visit/sacred-tree.jpg" alt="Sacred Temple Tree" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
+                <Image src="/gallery/tree.jpg" alt="Sacred Temple Tree" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
               </div>
               <div className="p-8">
                 <h3 className="font-heading text-2xl tracking-widest text-[#D4AF37]">The Sthala Vriksham</h3>
                 <p className="mt-3 font-body text-sm leading-relaxed text-[#F7F2EB]/80">
-                  Sit beneath the ancient sacred tree within the temple courtyard. This deeply spiritual spot is perfect for quiet meditation, chanting, and reflecting on the divine atmosphere of the Kshetram.
+                  Sit beneath the ancient sacred banyan tree within the temple courtyard. According to local belief, a great Rishi is still in deep meditation here, infusing this spot with profound spiritual energy.
                 </p>
               </div>
             </div>
 
-            {/* Highlight 4: 108 Shiva Lingas */}
+            {/* Highlight 4: 108 Shrines */}
             <div className="group flex flex-col overflow-hidden  border border-[#D4AF37]/20 bg-[#1a0f0a] transition-all hover:border-[#D4AF37]/60">
               <div className="relative h-72 w-full overflow-hidden">
-                <Image src="/visit/shiva-temple.jpg" alt="108 Shiva Lingas" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
+                <Image src="/visit/shrines.png" alt="108 Shrines" fill className="object-cover transition-transform duration-1000 group-hover:scale-105" />
               </div>
               <div className="p-8">
-                <h3 className="font-heading text-2xl tracking-widest text-[#D4AF37]">108 Shiva Lingas</h3>
+                <h3 className="font-heading text-2xl tracking-widest text-[#D4AF37]">108 Sacred Shrines</h3>
                 <p className="mt-3 font-body text-sm leading-relaxed text-[#F7F2EB]/80">
-                  Experience the harmonious blend of Vaishnavism and Shaivism by walking through the sacred corridor housing 108 beautifully adorned Shiva Lingas, an incredibly unique feature of this temple.
+                  Wander through the remarkable complex of 108 small, beautifully maintained shrines surrounding the main temple, each dedicated to different revered deities and forming a profound spiritual circuit.
                 </p>
               </div>
             </div>
