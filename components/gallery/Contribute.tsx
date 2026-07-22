@@ -23,7 +23,7 @@ export default function Contribute() {
 
         {/* Google Form Button */}
        <br/>
-          <TempleButton href="https://forms.gle/YOUR_GOOGLE_FORM_LINK_HERE" text="Submit Your Photos" />
+          <TempleButton href="https://forms.gle/5WrGF9haGNAM7NSC9" text="Submit Your Photos" />
         
 
       </div>

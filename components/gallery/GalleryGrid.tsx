@@ -9,61 +9,61 @@ const images = [
   {
     src: "/gallery/enterance.jpg",
     title: "Gateway to Grace",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "The magnificent entrance of Sri Panduranga Swamy Temple in Chilakalapudi, welcoming devotees to Machilipatnam.",
   },
   {
     src: "/gallery/main-enterance.jpg",
     title: "Divine Entrance",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "Devotees walking through the main entrance leading to the sacred sanctum of Sri Panduranga Swamy Temple in Machilipatnam.",
   },
   {
     src: "/gallery/sunset.jpg",
     title: "Sacred Silhouette",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "A beautiful sunset silhouette of Sri Panduranga Swamy Temple in Chilakalapudi, Machilipatnam, echoing timeless devotion.",
   },
   {
     src: "/gallery/idols.jpg",
     title: "Lord Panduranga",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "A divine darshan of Lord Panduranga Swamy inside the sacred sanctum of the historic temple in Machilipatnam, Andhra Pradesh.",
   },
   {
     src: "/gallery/temple2.jpg",
     title: "Sacred Sanctum",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "The peaceful and sacred architecture of Sri Panduranga Swamy Temple located in the serene village of Chilakalapudi, Machilipatnam.",
   },
   {
     src: "/gallery/night-deco.jpg",
     title: "Festive Lights",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "Sri Panduranga Swamy Temple in Machilipatnam beautifully illuminated with festive lights and decorations at night.",
   },
   {
     src: "/gallery/night-view.jpg",
     title: "Nighttime Serenity",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "A tranquil nighttime view of the Sri Panduranga Swamy Temple architecture under the night sky in Chilakalapudi, Machilipatnam.",
   },
   {
     src: "/gallery/pond.jpg",
     title: "Divine Temple Pond",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "The serene temple pond reflecting the spiritual aura and heritage of Sri Panduranga Swamy Temple in Machilipatnam, Andhra Pradesh.",
   },
   {
     src: "/gallery/tree.jpg",
     title: "The Tree of Vedic Hymns",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "The sacred tree echoing ancient Vedic hymns in the historic courtyard of Sri Panduranga Swamy Temple, Chilakalapudi.",
   },
   {
     src: "/gallery/cow.jpg",
     title: "Sacred Temple Grounds",
-    photographer: "Sriya Meenakshi Chalamalasetty",
+    photographer: " ",
     alt: "A sacred cow resting peacefully on the divine grounds of Sri Panduranga Swamy Temple in Machilipatnam.",
   }
 ];
@@ -100,7 +100,7 @@ export default function GalleryGrid() {
                   {image.title}
                 </h3>
                 <p className="mt-2 font-body text-sm text-[#F7F2EB]/70">
-                  <span className="text-[#D4AF37] opacity-80 mr-2">📷</span>
+                  <span className="text-[#D4AF37] opacity-80 mr-2"></span>
                   {image.photographer}
                 </p>
               </div>
