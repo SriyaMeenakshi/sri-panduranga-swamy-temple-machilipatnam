@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Container from "../common/Container";
+import Image from "next/image";
 
 const navItems = [
   { title: "Home", href: "/" },
@@ -19,9 +20,13 @@ export default function Navbar() {
           {/* Logo Section */}
           <Link href="/" className="flex items-center gap-4 group">
             {/* If you have a real logo, use next/image here instead of the emoji */}
-            <div className="text-3xl drop-shadow-md transition-transform duration-500 group-hover:scale-105">
-              🛕
-            </div>
+           <Image 
+              src="/favicon.ico"
+              alt="Temple Logo"
+              width={40}
+              height={40}
+              className="transition-transform duration-500 group-hover:scale-105"
+            />
             <div className="flex flex-col justify-center">
               <h2 className="font-serif text-xl md:text-2xl font-medium tracking-widest text-[#D4AF37] uppercase drop-shadow-sm">
                 Sri Panduranga Swamy Temple

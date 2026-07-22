@@ -55,7 +55,7 @@ export default function Hero() {
 
           {/* Call to Action */}
           <div className="mt-12">
-            <TempleButton text=" Explore the Heritage " />
+            <TempleButton href="/visit" text=" Explore the Heritage " />
           </div>
 
          

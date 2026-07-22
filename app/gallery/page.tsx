@@ -2,6 +2,7 @@ import GalleryGrid from "@/components/gallery/GalleryGrid";
 import Contribute from "@/components/gallery/Contribute";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import HistoryPreview from "@/components/home/HistoryPreview";
 export default function GalleryPage() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center bg-[#120b08]">
@@ -43,6 +44,8 @@ export default function GalleryPage() {
       <GalleryGrid />
       <br/>
       <Contribute />
+      <br/>
+      <HistoryPreview />
       <br/>
       <Footer/>
           

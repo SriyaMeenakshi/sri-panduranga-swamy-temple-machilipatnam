@@ -136,7 +136,7 @@ export default function HistoryPage() {
         <div className="relative z-20 text-center px-4">
             <br/><br/>
           <h1 className="font-heading text-5xl md:text-7xl text-[#FDFBF7] drop-shadow-xl uppercase tracking-widest">
-            The Sacred Chronicle
+            The Sacred Chronicle of KeerPandharpuram
           </h1>
           <div className="mt-6 h-[2px] w-32 mx-auto bg-[#D4AF37]" />
         </div>
