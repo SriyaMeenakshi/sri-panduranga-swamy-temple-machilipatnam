@@ -136,7 +136,7 @@ export default function HistoryPage() {
         <div className="relative z-20 text-center px-4">
             <br/><br/>
           <h1 className="font-heading text-5xl md:text-7xl text-[#FDFBF7] drop-shadow-xl uppercase tracking-widest">
-            The Sacred Chronicle of KeerPandharpuram
+            The Sacred Chronicle
           </h1>
           <div className="mt-6 h-[2px] w-32 mx-auto bg-[#D4AF37]" />
         </div>
@@ -212,8 +212,8 @@ export default function HistoryPage() {
          {/* Author's Note / Disclaimer */}
           <div className="mx-auto flex w-full flex-col items-center justify-center px-4">
             <p className="text-center font-body text-sm leading-[2] text-[#7B1E1E]/80">
-              <strong className="font-semibold tracking-wide text-[#7B1E1E]">A Note of Devotion:</strong> This sacred chronicle has been thoughtfully adapted from the historical accounts <br className="hidden lg:block" />
-              shared on the official Sri Panduranga Swamy Temple Facebook page. It has been recreated here to the <br className="hidden lg:block" />
+              <strong className="font-semibold tracking-wide text-[#7B1E1E]">A Note of Devotion:</strong> This sacred chronicle has been thoughtfully adapted from the stories I have heard from my childhood and historical accounts 
+              shared on the official Sri Panduranga Swamy Temple Facebook page. It has been recreated here to the 
               best of my ability as a humble offering and digital dedication to Lord Panduranga.
             </p>
           </div>

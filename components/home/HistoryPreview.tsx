@@ -27,7 +27,7 @@ export default function HistoryPreview() {
           {/* Inner Image Container */}
           <div className="relative z-10 aspect-[4/5] w-full overflow-hidden rounded-xl border border-[#D4AF37]/20">
             <Image
-              src="/hero/history-preview.png"
+              src="/history/chapter6.png"
               alt="Illustrated History of Sri Panduranga Swamy Temple"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"

@@ -9,7 +9,7 @@ export default function Hero() {
       
       {/* Background Image */}
       <Image
-        src="/hero/hero.png" 
+        src="/hero/hero7.png" 
         alt="Sri Panduranga Swamy Temple"
         fill
         priority
@@ -17,7 +17,7 @@ export default function Hero() {
       />
 
       {/* Cinematic Overlay */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-black/60 via-black/20 to-[#120b08]/90" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-black/80 via-black/60 to-[#120b08]/90" />
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.4)_100%)]" />
 
       {/* Navbar wrapper */}
