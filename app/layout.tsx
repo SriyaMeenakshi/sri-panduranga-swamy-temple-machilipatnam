@@ -16,14 +16,19 @@ const lora = Lora({
 
 
 
+
+
 export const metadata: Metadata = {
+  // Add this line right here!
+  metadataBase: new URL("https://sripandurangaswamytemple-machilipatnam.vercel.app"),
+  
   title: "Sri Panduranga Swamy Temple | Keer Pandharpuram, Chilakalapudi",
-  description: "Discover the digital heritage of Sri Panduranga Swamy Temple in Chilakalapudi, Machilipatnam. A sacred Kshetram built on pure devotion.",
+  description: "Discover the digital heritage of Sri Panduranga Swamy Temple in Chilakalapudi, Machilipatnam. A sacred Kshetram built on pure devotion with no Hundi.",
   keywords: ["Panduranga Swamy Temple", "Chilakalapudi", "Machilipatnam", "Keer Pandharpuram", "Andhra Pradesh temples", "Bhakta Narasimham"],
   openGraph: {
     title: "Sri Panduranga Swamy Temple | Chilakalapudi",
     description: "Explore the sacred heritage of Keer Pandharpuram in Machilipatnam.",
-    images: ["/hero/hero7.png"], // Google will use this when a link is shared
+    images: ["/hero/hero.png"], 
   },
 };
 
