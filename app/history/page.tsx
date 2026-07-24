@@ -128,8 +128,8 @@ export default function HistoryPage() {
       <section className="relative flex h-[60vh] min-h-[500px] w-full flex-col items-center justify-center overflow-hidden bg-[#7B1E1E]">
  <div className="absolute inset-0 bg-black/40 z-10" /> 
         <Image 
-          src="/history/hero3.png" 
-          alt="History of the Temple" 
+          src="public\history\pandurangaswamytemple-history.png" 
+          alt="History of the Sri Panduranga Swamy Temple in Chilakalapudi, Machilipatnam, Andhra Pradesh" 
           fill
           priority // Keep this! It tells Google to load this specific image first
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
