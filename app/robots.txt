@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://sripandurangaswamytemple-machilipatnam.vercel.app/sitemap.xml

@@ -130,7 +130,9 @@ export default function HistoryPage() {
         <Image 
           src="/history/hero3.png" 
           alt="History of the Temple" 
-          fill 
+          fill
+          priority // Keep this! It tells Google to load this specific image first
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
           className="object-cover" 
         />
         <div className="relative z-20 text-center px-4">

@@ -21,7 +21,7 @@ export default function GalleryPage() {
 <br/>
           {/* Scaled down heading */}
           <h1 className="mt-4 font-heading text-3xl font-normal uppercase tracking-widest text-[#F7F2EB] drop-shadow-lg md:text-4xl lg:text-5xl">
-            Temple Through My Lens
+            Temple Through Devotee's Lens
           </h1>
 
           {/* Tighter Diamond Divider */}

@@ -15,7 +15,9 @@ export default function VisitPage() {
         <Image 
           src="/visit/hero.png" 
           alt="Visit Sri Panduranga Swamy Temple" 
-          fill 
+          fill
+          priority // Keep this! It tells Google to load this specific image first
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
           className="object-cover" 
         />
         <div className="relative z-20 px-4 text-center">

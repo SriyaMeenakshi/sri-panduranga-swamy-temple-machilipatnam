@@ -12,12 +12,13 @@ export default function Hero() {
         src="/hero/hero7.png" 
         alt="Sri Panduranga Swamy Temple"
         fill
-        priority
+        priority // Keep this! It tells Google to load this specific image first
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="object-cover object-center scale-105" 
       />
 
       {/* Cinematic Overlay */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-black/80 via-black/60 to-[#120b08]/90" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-black/70 via-black/50 to-[#120b08]/90" />
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.4)_100%)]" />
 
       {/* Navbar wrapper */}

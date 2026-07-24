@@ -14,10 +14,17 @@ const lora = Lora({
   display: "swap",
 });
 
+
+
 export const metadata: Metadata = {
-  title: "Sri Panduranga Swamy Temple | Chilakalapudi",
-  description:
-    "Website of Sri Panduranga Swamy Temple, Chilakalapudi, Machilipatnam. A timeless sanctuary of devotion, heritage, and divine grace.",
+  title: "Sri Panduranga Swamy Temple | Keer Pandharpuram, Chilakalapudi",
+  description: "Discover the digital heritage of Sri Panduranga Swamy Temple in Chilakalapudi, Machilipatnam. A sacred Kshetram built on pure devotion.",
+  keywords: ["Panduranga Swamy Temple", "Chilakalapudi", "Machilipatnam", "Keer Pandharpuram", "Andhra Pradesh temples", "Bhakta Narasimham"],
+  openGraph: {
+    title: "Sri Panduranga Swamy Temple | Chilakalapudi",
+    description: "Explore the sacred heritage of Keer Pandharpuram in Machilipatnam.",
+    images: ["/hero/hero7.png"], // Google will use this when a link is shared
+  },
 };
 
 export default function RootLayout({

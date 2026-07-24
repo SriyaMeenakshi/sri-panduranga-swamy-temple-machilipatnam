@@ -7,57 +7,57 @@ import Autoplay from "embla-carousel-autoplay";
 
 const slides = [
   {
-    image: "/gallery/enterance.jpg",
+    image: "/gallery/enterance-of-pandurangaswamytemple-chilakalapudi.jpg",
     title: "Gateway to Grace",
     description: "The magnificent entrance welcoming every devotee.",
   },
   {
-    image: "/gallery/main-enterance.jpg",
+    image: "/gallery/main-enterance-keer-pandarpuram.jpg",
     title: "Divine Entrance",
     description: "Where every step leads to spiritual awakening.",
   },
   {
-    image: "/gallery/sunset.jpg",
+    image: "/gallery/panduranga-swamy-temple-garden.jpg",
     title: "Sacred Silhouette",
     description: "Every stone echoes devotion.",
   },
   {
-    image: "/gallery/temple1.jpg",
+    image: "/gallery/pandurangaswamytemple-gopuram.jpg",
     title: "Temple Shrine",
     description: "A sanctuary of faith and timeless devotion.",
   },
   {
-    image: "/gallery/idols.jpg",
+    image: "/gallery/rukmini-vittala-chilakalapudi.jpg",
     title: "Eternal Vittala & Rukmini",
     description: "Where every heart finds peace in the divine presence of the deities.",
   },
   {
-    image: "/gallery/temple2.jpg",
+    image: "/gallery/pandurangaswamytemple-main-gopuram.jpg",
     title: "Sacred Sanctum",
     description: "A place where devotion meets divine serenity.",
   },
   {
-    image: "/gallery/night-deco.jpg",
+    image: "/gallery/night-lights-pandurangaswamytemple.jpg",
     title: "Festive Lights",
     description: "The temple illuminated in celebration and devotion.",
   },
   {
-    image: "/gallery/night-view.jpg",
+    image: "/gallery/pandurangaswamy-temple-night.jpg",
     title: "Nighttime Serenity",
     description: "A tranquil view of the temple under the night sky.",
   },
   {
-    image: "/gallery/pond.jpg",
+    image: "/gallery/koneru-pandurangaswamy-temple.jpg",
     title: "Divine Temple Pond",
     description: "A serene pond reflecting the temple's spiritual aura.",
   },
   {
-    image:"/gallery/cow.jpg",
+    image:"/gallery/cow-pandurangaswamy-temple.jpg",
     title:"Gowmatha",
     description:"Gowmatha, from the sacred Gowshala, revered in our temple grounds.",
   },
   {
-    image: "/gallery/tree.jpg",
+    image: "/gallery/pandurangaswamy-temple-tree.jpg",
     title: "The Tree of Vedic Hymns",
     description: "A sacred tree echoing ancient hymns. Discover its legacy in our History section.",
   }
